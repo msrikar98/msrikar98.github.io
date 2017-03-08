@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+body {
+    background: #000;
+}
+#c {
+    display: block;
+    margin: 20px auto 0;
+}
+#info {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: auto;
+    max-width: 420px;
+    height: auto;
+    background: #f2f2f2;
+    border-bottom-right-radius: 10px;
+    border:1px solid #333;
+}
+h1{
+  color:white;
+}
+h3
+{
+  color:white;
+}
+#top {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+p {
+    font-family: Arial, sans-serif;
+    color: #666;
+    text-align: justify;
+    font-size: 16px;
+    margin: 10px 16px;
+}
+#github {
+  color:#3377ee;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration:none;
+}
+#net {
+  text-align:center;
+  white-space:nowrap;
+  font-size:19px;
+  background:rgba(0,0,0,0.1);
+  padding:8px 12px;
+  border-radius:8px;
+  display:block;
+  color:#888;
+}
+#net > span {
+  color:#3377ee;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration:none;
+}
+a {
+    font-family: sans-serif;
+    color: #444;
+    text-decoration: none;
+    font-size: 20px;
+}
+#site {
+    float: left;
+    margin: 10px;
+    color: #ff9900;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom:3px
+}
+#site:hover {
+    color: #ffaa11;
+}
+#close {
+    float: right;
+    margin: 10px;
+}
+#p {
+    font-family: Verdana, sans-serif;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #4099ff;
+    border: 1px dashed #4099ff;
+    padding: 4px 8px;
+}
+
+#irc {
+  display: block;
+   text-align: center;
+  margin-top:4px;
+    color: #333;
+}
+
+#irc a {
+  color: #3377ee;
+  font-size: 17px
+}
+
+#irc-info {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  margin-top: -10px;
+  color: #828282;
+  margin-bottom:4px
+}
+
+#new {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+#new a {
+  font-size: 18px;
+  color: #4099ff;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -65px;
+  margin-top: -20px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #1ECD97;
+  color: #1ECD97;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+button:hover {
+  color: white;
+  background: #1ECD97;
+}
+button:active {
+  letter-spacing: 2px;
+}
+button:after {
+  content: "HOME";
+}
+
+.onclic {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: #1ECD97;
+  animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "";
+}
+.onclic:hover {
+  color: #1ECD97;
+  background: white;
+}
+
+.validate {
+  font-size: 13px;
+  color: white;
+  background: #1ECD97;
+}
+.validate:after {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
